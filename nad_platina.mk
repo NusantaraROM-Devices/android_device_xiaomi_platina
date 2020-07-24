@@ -34,7 +34,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit some common Nusantara OS stuff.
-$(call inherit-product, vendor/nad/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
@@ -45,9 +45,6 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release
 
 TARGET_VENDOR_PRODUCT_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Official
-NAD_BUILD_TYPE := OFFICIAL
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
