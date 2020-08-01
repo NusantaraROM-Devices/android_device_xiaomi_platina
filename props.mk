@@ -125,8 +125,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.vendor.camera.eis.enable=1 \
     persist.vendor.camera.exif.make=Xiaomi \
-    persist.vendor.camera.privapp.list=org.codeaurora.snapcam \
-    vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.discord
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 
 # Codec2 switch
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -390,12 +389,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.imx376_ofilm.light.lux=275 \
 	persist.vendor.bokeh.switch.lux=290 \
 	persist.vendor.camera.exif.make=Xiaomi \
-    persist.camera.privapp.list=org.codeaurora.snapcam \
-    persist.vendor.camera.dual.isp.sync=0 \
-    persist.vendor.camera.HAL3.enabled=1 \
-    persist.vendor.camera.exif.make=Xiaomi \
-    persist.vendor.camera.privapp.list=org.codeaurora.snapcam \
-    vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.discord \
     vendor.camera.aux.packagelist=com.android.camera
 
 # Dual SIM
